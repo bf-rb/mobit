@@ -1,0 +1,18 @@
+<h2>Hello</h2>
+
+Simple Helper 'rails_phone_tag'
+<%= rails_phone_tag :phone %>
+<br>
+<br>
+
+Form For 'form.rails_phone_field'
+<%= form_for @example do |f|%>
+  <%= f.rails_phone_field :phone %>
+<% end %>
+<br>
+<br>
+
+Simple_Form_For 'form.rails_phone'
+<%= simple_form_for @example do |f|%>
+  <%= f.input :phone, as: :country_phone %>
+<% end %>
