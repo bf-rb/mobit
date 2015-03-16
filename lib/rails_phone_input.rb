@@ -4,6 +4,10 @@ require 'rails_phone_input/engine'
 
 autoload :CountryPhoneInput, 'rails_phone_input/helpers/simple_form/country_phone_input'
 
+module Formtastic
+  autoload :CountryPhone, 'rails_phone_input/helpers/formtastic/country_phone'
+end
+
 module RailsPhoneInput
 
   module Core
