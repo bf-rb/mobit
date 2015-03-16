@@ -16,3 +16,10 @@ Simple_Form_For 'form.rails_phone'
 <%= simple_form_for @example do |f|%>
   <%= f.input :phone, as: :country_phone %>
 <% end %>
+<br>
+<br>
+
+Formtastic  'form.country_phone'
+<%= semantic_form_for @example do |form| %>
+  <%= form.country_phone :phone %>
+<% end %>

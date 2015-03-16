@@ -13,3 +13,4 @@ gem 'jquery-rails'
 
 gem 'simple_form'
 gem 'rails_phone_input', path: '../../../'
+gem 'formtastic', '~> 3.0'
