@@ -1,5 +1,5 @@
 # encoding: utf-8
-module RailsPhoneInput
+module Mobit
   module Helpers
 
     module FormBuilder

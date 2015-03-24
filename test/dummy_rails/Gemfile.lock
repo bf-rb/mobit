@@ -1,7 +1,7 @@
 PATH
   remote: ../../../
   specs:
-    rails_phone_input (0.0.1)
+    mobit (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -110,8 +110,8 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   formtastic (~> 3.0)
   jquery-rails
+  mobit!
   rails (= 4.1.8)
-  rails_phone_input!
   sass-rails (~> 4.0.3)
   simple_form
   sqlite3

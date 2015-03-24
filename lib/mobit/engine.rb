@@ -1,15 +1,15 @@
 # encoding: utf-8
-module RailsPhoneInput
+module Mobit
 
   class Engine < ::Rails::Engine
 
-    isolate_namespace RailsPhoneInput
+    isolate_namespace Mobit
 
-    initializer 'rails_phone_input.helpers' do
+    initializer 'mobit.helpers' do
 
       ActiveSupport.on_load :action_view do
-        ActionView::Base.send :include, RailsPhoneInput::Helpers::ViewHelper
-        ActionView::Helpers::FormBuilder.send :include, RailsPhoneInput::Helpers::FormBuilder
+        ActionView::Base.send :include, Mobit::Helpers::ViewHelper
+        ActionView::Helpers::FormBuilder.send :include, Mobit::Helpers::FormBuilder
       end
 
     end

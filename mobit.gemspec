@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rails_phone_input/version'
+require 'mobit/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'rails_phone_input'
-  spec.version       = RailsPhoneInput::VERSION
+  spec.name          = 'mobit'
+  spec.version       = Mobit::VERSION
   spec.platform      = Gem::Platform::RUBY
   spec.authors       = ['alexmercury', 'b8in']
   spec.email         = ['rubybeastua@gmail.com']

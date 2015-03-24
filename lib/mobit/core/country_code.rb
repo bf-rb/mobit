@@ -1,5 +1,5 @@
 # encoding: utf-8
-module RailsPhoneInput
+module Mobit
   module Core
     module CountryCode
 

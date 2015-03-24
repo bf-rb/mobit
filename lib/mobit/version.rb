@@ -1,4 +1,4 @@
 # encoding: utf-8
-module RailsPhoneInput
+module Mobit
   VERSION = '0.0.1'
 end

@@ -1,5 +1,5 @@
 # encoding: utf-8
-module RailsPhoneInput
+module Mobit
   module Helpers
     module ViewHelper
       extend ActiveSupport::Concern
@@ -8,13 +8,13 @@ module RailsPhoneInput
 
         ip = request.remote_ip # Rails => Get User IP address
 
-        cc = RailsPhoneInput::Core::IpCountryCode.cc_from_ip(ip) # Get country code from IP address
+        cc = Mobit::Core::IpCountryCode.cc_from_ip(ip) # Get country code from IP address
 
         html = '<div>'
 
         html += '<select name="' + name.to_s + '_cc">'
 
-        RailsPhoneInput::Core::CountryCode::CODES.each do |c|
+        Mobit::Core::CountryCode::CODES.each do |c|
           html += "<option value='#{c[:code]}' data-trunk-code='#{c[:trunk_code]}'"
           html += " #{'selected="selected"' if c[:iso] == cc}>"
           html += "#{c[:name]} (+#{c[:code]})</option>"
