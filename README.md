@@ -20,6 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
+Add require string into application.css
+
+```css
+//= require mobit_style
+```
+
 TODO: Write usage instructions here
 
 ## Contributing
