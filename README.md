@@ -1,4 +1,4 @@
-# Mobit
+# Mobit [![Gem Version](https://badge.fury.io/rb/mobit.svg)](http://badge.fury.io/rb/mobit)
 
 TODO: Write a gem description
 
