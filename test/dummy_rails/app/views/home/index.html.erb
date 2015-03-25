@@ -1,18 +1,30 @@
 <h2>Hello</h2>
 
+<div class="flag flag-ua"></div>
+
 Simple Helper 'rails_phone_tag'
-<%= rails_phone_tag :phone %>
+<%= rails_phone_tag :phone, '', required: true %>
 <br>
 <br>
 
 Form For 'form.rails_phone_field'
 <%= form_for @example do |f|%>
-  <%= f.rails_phone_field :phone %>
+  <%= f.rails_phone_field :phone, required: true %>
+  <%= f.submit %>
 <% end %>
 <br>
 <br>
 
 Simple_Form_For 'form.rails_phone'
 <%= simple_form_for @example do |f|%>
-  <%= f.input :phone, as: :country_phone %>
+  <%= f.input :phone, as: :country_phone, required: true %>
+  <%= f.submit %>
+<% end %>
+<br>
+<br>
+
+Formtastic  'form.country_phone'
+<%= semantic_form_for @example do |form| %>
+  <%= form.country_phone :phone, required: true %>
+  <%= form.submit %>
 <% end %>

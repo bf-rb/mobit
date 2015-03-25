@@ -12,4 +12,5 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 gem 'simple_form'
-gem 'rails_phone_input', path: '../../../'
+gem 'mobit', path: '../../../'
+gem 'formtastic', '~> 3.0'
