@@ -104,7 +104,7 @@ Name,A2 (ISO),A3 (UN),Dialing code,Trunk code
 "Ivory Coast",CI,CIV,225,
 "Jamaica",JM,JAM,1876,1
 "Japan",JP,JPN,81,0
-"Jersey",JE,JEY,,
+Jersey,JE,JEY,44,
 "Jordan",JO,JOR,962,0
 "Kazakhstan",KZ,KAZ,7,8
 "Kenya",KE,KEN,254,0
@@ -200,7 +200,7 @@ Name,A2 (ISO),A3 (UN),Dialing code,Trunk code
 "Sri Lanka",LK,LKA,94,0
 "Sudan",SD,SDN,249,0
 "Suriname",SR,SUR,597,0
-"Svalbard",SJ,SJM,,
+Svalbard,SJ,SJM,4779,
 "Swaziland",SZ,SWZ,268,
 "Sweden",SE,SWE,46,0
 "Switzerland",CH,CHE,41,0
@@ -232,7 +232,7 @@ Name,A2 (ISO),A3 (UN),Dialing code,Trunk code
 "Vietnam",VN,VNM,84,0
 "Wallis and Futuna",WF,WLF,681,
 "West Bank",,,970,
-"Western Sahara",EH,ESH,,
+"Western Sahara",EH,ESH,212528,
 "Yemen",YE,YEM,967,0
 "Zambia",ZM,ZMB,260,0
 "Zimbabwe",ZW,ZWE,263,0

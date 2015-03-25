@@ -12,7 +12,7 @@ module Mobit
 
   module Core
     autoload :IpCountryCode, 'mobit/core/ip_country_code'
-    autoload :CountryCode, 'mobit/core/country_code'
+    autoload :Country, 'mobit/core/country'
   end
 
   module Helpers
