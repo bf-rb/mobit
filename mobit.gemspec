@@ -16,6 +16,7 @@ Gem::Specification.new do |spec|
 
   spec.files         = %w(README.md Rakefile LICENSE.txt)
   spec.files         += Dir['lib/**/*.rb']
+  spec.files         += Dir['lib/data/**/*.csv']
 
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
