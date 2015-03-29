@@ -9,13 +9,11 @@ Gem::Specification.new do |spec|
   spec.platform      = Gem::Platform::RUBY
   spec.authors       = ['alexmercury', 'b8in']
   spec.email         = ['rubybeastua@gmail.com']
-  spec.summary       = %q{Write a short summary. Required.}
-  spec.description   = %q{Write a longer description. Optional.}
   spec.homepage      = 'https://github.com/rubybeast/mobit'
   spec.license       = 'MIT'
 
   spec.files         = %w(README.md Rakefile LICENSE.txt)
-  spec.files         += Dir['lib/**/*.rb']
+  spec.files         += Dir['lib/**/*.rb', 'lib/tasks/**/*.rake']
   spec.files         += Dir['lib/mobit/data/**/*.csv']
 
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
@@ -25,5 +23,15 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.7'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'actionpack', '~> 4.0'
+
+  spec.summary       = 'Beautiful input for mobile phone number.'
+  spec.description   = <<-eos
+  Gem for creating beautiful input for mobile phone number
+in the Rails views.
+Supported ViewHelpers:
+  Rails Form
+  Simple_Form
+  Formtastic
+eos
 
 end

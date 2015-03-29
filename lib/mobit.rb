@@ -10,6 +10,12 @@ end
 
 module Mobit
 
+  CONFIG_FILE = 'mobit_config.rb'
+
+  module Config
+    autoload :SelectConfig, 'mobit/core/select_config'
+  end
+
   module Core
     autoload :IpCountryCode, 'mobit/core/ip_country_code'
     autoload :Country, 'mobit/core/country'

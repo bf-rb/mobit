@@ -37,6 +37,10 @@ Or install it yourself as:
 
 ## Usage
 
+Initialize config file:
+
+    $rake mobit:init
+
 Simple Helper 'rails_phone_tag'
 
 ```erb
